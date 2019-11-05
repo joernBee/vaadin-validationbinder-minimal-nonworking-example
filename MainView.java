@@ -13,7 +13,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 public class MainView extends VerticalLayout {
 
     public MainView() {
-        Label vaadin = new Label( "Vaadin version: 13" );
+        Label vaadin = new Label( "Vaadin version: 14" );
         add(vaadin);
         Label explanation = new Label( "@Size(min = 5)");
         add(explanation);
